@@ -334,8 +334,9 @@ h1 span {
     }
 
     .profile {
-        grid-template-columns: 1fr;
-        gap: 25px;
+        grid-template-columns: 120px minmax(0, 1fr);
+        align-items: start;
+        gap: 20px;
     }
 
     .portrait {
@@ -344,7 +345,7 @@ h1 span {
     }
 
     .portrait img {
-        width: 132px;
+        width: 120px;
         border-width: 5px;
         border-radius: 13px;
     }
@@ -387,6 +388,15 @@ h1 span {
     h1 {
         font-size: 30px;
         line-height: 30px;
+    }
+
+    .profile {
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    .portrait img {
+        width: 92px;
     }
 
     .honor-list li {
